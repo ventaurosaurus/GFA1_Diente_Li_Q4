@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/06/batman-and-spider-man-crossover-marvel-dc.jpg) no-repeat center center fixed;
+    background-size:auto;
+}
+
+fieldset {
+    background-color: rgba(219, 200, 25, 0.8);
+    border: 5px solid #ccc;
+    padding: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+.valid {
+    border: 2px solid green;
+}
+
+.output {
+    margin-top: 20px;
+    border: 1px solid #40ce1d;
+    padding: 10px;
+    background-color: rgba(190, 78, 78, 0.8);
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
